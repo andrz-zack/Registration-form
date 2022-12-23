@@ -38,14 +38,14 @@
 
         <fieldset>
             <!-- profile-picture -->
-            <label ><p>Upload a profile picture:</p> 
+            <label id="profile-picture"><p>Upload a profile picture:</p> 
                 <input type="file"> 
             </label>
             <!-- age = edad -->
-            <label ><p>Input your age (years):</p><input type="number" min="13" max="120"></label>
+            <label id="age"><p>Input your age (years):</p><input type="number" min="13" max="120"></label>
 
             <!-- referencias = referrer -->
-            <label> How did you hear about us? 
+            <label id="referrer"> How did you hear about us? 
             <select>
                 <option value="">(select one)</option>
                 <option value="1">freeCodeCamp News
@@ -58,7 +58,7 @@
             </select>
         </label>
             <!-- para que inserte el usuario una bio de si mismo -->
-        <label ><p>Provide a bio:</p><textarea></textarea></label>
+        <label id="bio"><p>Provide a bio:</p><textarea></textarea></label>
         </fieldset>
 
         <input type="submit" value="Submit">
