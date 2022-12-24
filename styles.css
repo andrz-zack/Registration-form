@@ -65,9 +65,21 @@ input, textarea {
     min-width: 300px;
    margin: 1em auto;
    cursor: pointer;
-  
+    
+  }
+  input[type="submit"]:hover{
+    color: greenyellow;
+    background-color: rgb(21, 21, 68);
+    
   }
 
   input[type="file"] {
     padding: 1px 2px;
+  }
+  a {
+    color: #dfdfe2;
+    text-decoration: none;
+  }
+  a:hover{
+    color: rgb(160, 32, 53);
   }
